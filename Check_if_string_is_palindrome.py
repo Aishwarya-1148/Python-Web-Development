@@ -1,6 +1,8 @@
-text = "madam1"
+# string is palindrome or not 
+
+str = "madam"
 og = str 
-rev = str[::-1]
+rev = str[::-1] 
 print("og : = ",og,"text : = ",rev)
 if rev == og :
     print("The String : = ",og ,"is a palindrome String ")
